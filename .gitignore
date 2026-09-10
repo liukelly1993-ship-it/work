@@ -56,4 +56,6 @@ htmlcov/
 # 项目本地生成的 Chroma 向量数据库
 langgraph-mulit-agent-0908/chroma_db/
 langgraph-mulit-agent-0908/data/vector_db/
+*.md
+
 
