@@ -1,0 +1,20 @@
+[project]
+name = "03-order-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "niaoge", email = "gxu_xupeng2008@126.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "langchain>=1.4.0",
+    "langchain-huggingface>=1.2.2",
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-openai>=1.6.1",
+    "pymilvus>=3.0.1",
+    "pymysql>=1.2.0",
+    "python-dotenv>=1.2.3",
+    "sentence-transformers>=6.0.1",
+]
