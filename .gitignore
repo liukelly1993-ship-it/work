@@ -1,0 +1,61 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python 字节码和缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.cache/
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 构建和打包产物
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# 测试、覆盖率和工具产物
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.ipynb_checkpoints/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 环境变量和本地密钥（保留示例文件）
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+
+# 项目本地生成的 Chroma 向量数据库
+langgraph-mulit-agent-0908/chroma_db/
+langgraph-mulit-agent-0908/data/vector_db/
+*.md
+
+
